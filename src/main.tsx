@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import Home from './Home.tsx'
 import './index.css'
 import {
   HashRouter,
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <HashRouter>
     <Routes>
-    <Route path="/home" element={<App/>} />
+    <Route path="/home" element={<Home/>} />
     </Routes>
     </HashRouter>
   </React.StrictMode>,
